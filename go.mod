@@ -5,6 +5,7 @@ go 1.23.0
 toolchain go1.23.8
 
 require (
+	github.com/FObersteiner/goserial v0.1.2
 	github.com/JuulLabs-OSS/ble v0.0.0-20200716215611-d4fcc9d598bb
 	github.com/JuulLabs-OSS/cbgo v0.0.2
 	github.com/abiosoft/ishell/v2 v2.0.2
@@ -16,15 +17,14 @@ require (
 	github.com/sirupsen/logrus v1.9.0
 	github.com/spf13/cast v1.5.0
 	github.com/spf13/cobra v1.6.1
-	github.com/FObersteiner/goserial v0.1.2
 	github.com/ugorji/go/codec v1.2.10
 	golang.org/x/net v0.40.0
 	gopkg.in/cheggaaa/pb.v1 v1.0.28
 	mynewt.apache.org/newt v0.0.0-20230307214303-0b46ad464e7a
+	mynewt.apache.org/newtmgr v0.0.0-20250512112241-91ebb3c81056
 )
 
 require (
-	github.com/abiosoft/ishell v2.0.0+incompatible // indirect
 	github.com/abiosoft/readline v0.0.0-20180607040430-155bce2042db // indirect
 	github.com/fatih/color v1.14.1 // indirect
 	github.com/flynn-archive/go-shlex v0.0.0-20150515145356-3f9db97f8568 // indirect
@@ -38,5 +38,6 @@ require (
 	github.com/raff/goble v0.0.0-20200327175727-d63360dcfd80 // indirect
 	github.com/rivo/uniseg v0.4.4 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
+	github.com/tarm/serial v0.0.0-20180830185346-98f6abe2eb07 // indirect
 	golang.org/x/sys v0.33.0 // indirect
 )

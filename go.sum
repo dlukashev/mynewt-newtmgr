@@ -1,4 +1,6 @@
 github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03qcyfWMU=
+github.com/FObersteiner/goserial v0.1.2 h1:O4Thdb9lq1+ofD9ZfUn0XVaSN25vdnevJSaTwkjFn0Y=
+github.com/FObersteiner/goserial v0.1.2/go.mod h1:spfZkEd2p+qMTbXPxWePzAYWfrGoUTodKbJIBZi3nQ4=
 github.com/JuulLabs-OSS/ble v0.0.0-20200716215611-d4fcc9d598bb h1:kIZ7fr8RxucJXNHifPxm71yiWuzpw0SmjlafMzoOd0U=
 github.com/JuulLabs-OSS/ble v0.0.0-20200716215611-d4fcc9d598bb/go.mod h1:6deIuswYSv6W1l3sM/nonw0OKWtIZCn7ZOWvIREoq2A=
 github.com/JuulLabs-OSS/cbgo v0.0.1/go.mod h1:L4YtGP+gnyD84w7+jN66ncspFRfOYB5aj9QSXaFHmBA=
@@ -148,6 +150,7 @@ golang.org/x/sys v0.0.0-20220811171246-fbc7d0a398ab/go.mod h1:oPkhp1MJrh7nUepCBc
 golang.org/x/sys v0.2.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.5.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.6.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
+golang.org/x/sys v0.7.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/sys v0.33.0 h1:q3i8TbbEz+JRD9ywIRlyRAQbM0qF7hu24q3teo2hbuw=
 golang.org/x/sys v0.33.0/go.mod h1:BJP2sWEmIv4KK5OTEluFJCKSidICx8ciO85XgH3Ak8k=
 golang.org/x/term v0.0.0-20201126162022-7de9c90e9dd1/go.mod h1:bj7SfCRtBDWHUb9snDiAeCFNEtKQo2Wmx5Cou7ajbmo=
@@ -177,3 +180,5 @@ gopkg.in/yaml.v3 v3.0.1 h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=
 gopkg.in/yaml.v3 v3.0.1/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=
 mynewt.apache.org/newt v0.0.0-20230307214303-0b46ad464e7a h1:qypzKgkCJKRR2ZzTjOKk57KuFhmhjpMMD6hlYOT+fmQ=
 mynewt.apache.org/newt v0.0.0-20230307214303-0b46ad464e7a/go.mod h1:Im7jYeGWfP8opIfwGYJKe8fwTsZUXfy4m1YETxW00zU=
+mynewt.apache.org/newtmgr v0.0.0-20250512112241-91ebb3c81056 h1:abW1fyOdMiKbbqcwtVCXXn/Pb3HzFdutA5iTT0NdUWw=
+mynewt.apache.org/newtmgr v0.0.0-20250512112241-91ebb3c81056/go.mod h1:guxi04Fdpk3cKE76Iba6J6XWihVxkK+1sGZ7l5AcT0c=
