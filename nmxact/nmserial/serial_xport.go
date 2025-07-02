@@ -32,7 +32,7 @@ import (
 	"github.com/joaojeronimo/go-crc16"
 	"github.com/runtimeco/go-coap"
 	log "github.com/sirupsen/logrus"
-	"github.com/FObersteiner/goserial"
+	serial "github.com/FObersteiner/goserial"
 
 	"mynewt.apache.org/newt/util"
 	"mynewt.apache.org/newtmgr/nmxact/sesn"
@@ -56,7 +56,7 @@ func NewXportCfg() *XportCfg {
 
 type SerialXport struct {
 	cfg     *XportCfg
-	port    *goserial.Port
+	port    *serial.Port
 	scanner *bufio.Scanner
 
 	wg sync.WaitGroup
@@ -106,14 +106,14 @@ func (sx *SerialXport) Start() error {
 		return nil
 	}
 
-	c := &goserial.Config{
+	c := &serial.Config{
 		Name:        sx.cfg.DevPath,
 		Baud:        sx.cfg.Baud,
 		ReadTimeout: sx.cfg.ReadTimeout,
 	}
 
 	var err error
-	sx.port, err = goserial.OpenPort(c)
+	sx.port, err = serial.OpenPort(c)
 	if err != nil {
 		return err
 	}
