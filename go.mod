@@ -1,4 +1,4 @@
-module mynewt.apache.org/newtmgr
+module github.com/dlukashev/mynewt-newtmgr
 
 go 1.23.0
 
