@@ -56,7 +56,7 @@ func NewXportCfg() *XportCfg {
 
 type SerialXport struct {
 	cfg     *XportCfg
-	port    *serial.Port
+	port    *goserial.Port
 	scanner *bufio.Scanner
 
 	wg sync.WaitGroup
@@ -106,14 +106,14 @@ func (sx *SerialXport) Start() error {
 		return nil
 	}
 
-	c := &serial.Config{
+	c := &goserial.Config{
 		Name:        sx.cfg.DevPath,
 		Baud:        sx.cfg.Baud,
 		ReadTimeout: sx.cfg.ReadTimeout,
 	}
 
 	var err error
-	sx.port, err = serial.OpenPort(c)
+	sx.port, err = goserial.OpenPort(c)
 	if err != nil {
 		return err
 	}
