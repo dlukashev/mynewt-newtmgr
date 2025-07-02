@@ -32,7 +32,7 @@ import (
 	"github.com/joaojeronimo/go-crc16"
 	"github.com/runtimeco/go-coap"
 	log "github.com/sirupsen/logrus"
-	"github.com/tarm/serial"
+	"github.com/FObersteiner/goserial"
 
 	"mynewt.apache.org/newt/util"
 	"mynewt.apache.org/newtmgr/nmxact/sesn"
